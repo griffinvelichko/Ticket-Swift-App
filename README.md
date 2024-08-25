@@ -14,8 +14,8 @@ This Swift application was developed to explore and implement key features of th
 This project was built as a learning exercise, focusing on the following skills:
 
 - **Swift Programming:** Gained hands-on experience in Swift for iOS app development.
-- **MongoDB Device SDK:** Learned and implemented MongoDB's Device SDK to handle user authentication and real-time data synchronization.
-- **Real-Time Data Handling:** Mastered techniques to sync data across multiple users in a live environment.
+- **MongoDB Device SDK:** Implemented MongoDB's Device SDK to handle user authentication and real-time data synchronization.
+- **Real-Time Data Handling:** Learned techniques to sync data across multiple users in a live environment.
 
 ## Getting Started
 
