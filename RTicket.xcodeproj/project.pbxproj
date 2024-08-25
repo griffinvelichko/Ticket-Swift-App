@@ -14,6 +14,15 @@
 		2AD240002C7BA6FB0055110A /* RTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD23FFF2C7BA6FB0055110A /* RTicketTests.swift */; };
 		2AD2400A2C7BA6FB0055110A /* RTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240092C7BA6FB0055110A /* RTicketUITests.swift */; };
 		2AD2400C2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2400B2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift */; };
+		2AD2401A2C7BA88B0055110A /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240192C7BA88B0055110A /* ProductView.swift */; };
+		2AD2401C2C7BA8A40055110A /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2401B2C7BA8A40055110A /* TicketsView.swift */; };
+		2AD2401E2C7BA8E20055110A /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2401D2C7BA8E20055110A /* LogoutButton.swift */; };
+		2AD240202C7BA8FD0055110A /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2401F2C7BA8FD0055110A /* TicketView.swift */; };
+		2AD240222C7BA9130055110A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240212C7BA9130055110A /* DateView.swift */; };
+		2AD240252C7BA93C0055110A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240242C7BA93C0055110A /* Ticket.swift */; };
+		2AD240272C7BA9550055110A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240262C7BA9550055110A /* LoginView.swift */; };
+		2AD2402A2C7BAD190055110A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2AD240292C7BAD190055110A /* Realm */; };
+		2AD2402C2C7BAD190055110A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2AD2402B2C7BAD190055110A /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,13 @@
 		2AD240052C7BA6FB0055110A /* RTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD240092C7BA6FB0055110A /* RTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketUITests.swift; sourceTree = "<group>"; };
 		2AD2400B2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AD240192C7BA88B0055110A /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		2AD2401B2C7BA8A40055110A /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		2AD2401D2C7BA8E20055110A /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
+		2AD2401F2C7BA8FD0055110A /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		2AD240212C7BA9130055110A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		2AD240242C7BA93C0055110A /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		2AD240262C7BA9550055110A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD2402C2C7BAD190055110A /* RealmSwift in Frameworks */,
+				2AD2402A2C7BAD190055110A /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +112,9 @@
 		2AD23FED2C7BA6F90055110A /* RTicket */ = {
 			isa = PBXGroup;
 			children = (
+				2AD240232C7BA92F0055110A /* Model */,
+				2AD240182C7BA8790055110A /* Views */,
 				2AD23FEE2C7BA6F90055110A /* RTicketApp.swift */,
-				2AD23FF02C7BA6F90055110A /* ContentView.swift */,
 				2AD23FF22C7BA6FB0055110A /* Assets.xcassets */,
 				2AD23FF42C7BA6FB0055110A /* Preview Content */,
 			);
@@ -127,6 +146,28 @@
 			path = RTicketUITests;
 			sourceTree = "<group>";
 		};
+		2AD240182C7BA8790055110A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AD23FF02C7BA6F90055110A /* ContentView.swift */,
+				2AD240192C7BA88B0055110A /* ProductView.swift */,
+				2AD2401B2C7BA8A40055110A /* TicketsView.swift */,
+				2AD2401D2C7BA8E20055110A /* LogoutButton.swift */,
+				2AD2401F2C7BA8FD0055110A /* TicketView.swift */,
+				2AD240212C7BA9130055110A /* DateView.swift */,
+				2AD240262C7BA9550055110A /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AD240232C7BA92F0055110A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AD240242C7BA93C0055110A /* Ticket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,10 @@
 			dependencies = (
 			);
 			name = RTicket;
+			packageProductDependencies = (
+				2AD240292C7BAD190055110A /* Realm */,
+				2AD2402B2C7BAD190055110A /* RealmSwift */,
+			);
 			productName = RTicket;
 			productReference = 2AD23FEB2C7BA6F90055110A /* RTicket.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 2AD23FE22C7BA6F90055110A;
+			packageReferences = (
+				2AD240282C7BAAD30055110A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 2AD23FEC2C7BA6F90055110A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD240202C7BA8FD0055110A /* TicketView.swift in Sources */,
 				2AD23FF12C7BA6F90055110A /* ContentView.swift in Sources */,
+				2AD240222C7BA9130055110A /* DateView.swift in Sources */,
+				2AD240272C7BA9550055110A /* LoginView.swift in Sources */,
+				2AD240252C7BA93C0055110A /* Ticket.swift in Sources */,
+				2AD2401E2C7BA8E20055110A /* LogoutButton.swift in Sources */,
+				2AD2401A2C7BA88B0055110A /* ProductView.swift in Sources */,
+				2AD2401C2C7BA8A40055110A /* TicketsView.swift in Sources */,
 				2AD23FEF2C7BA6F90055110A /* RTicketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +643,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AD240282C7BAAD30055110A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AD240292C7BAD190055110A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AD240282C7BAAD30055110A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		2AD2402B2C7BAD190055110A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AD240282C7BAAD30055110A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AD23FE32C7BA6F90055110A /* Project object */;
 }
