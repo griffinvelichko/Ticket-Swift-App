@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD23FEF2C7BA6F90055110A /* RTicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD23FEE2C7BA6F90055110A /* RTicketApp.swift */; };
+		2AD23FF12C7BA6F90055110A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD23FF02C7BA6F90055110A /* ContentView.swift */; };
+		2AD23FF32C7BA6FB0055110A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD23FF22C7BA6FB0055110A /* Assets.xcassets */; };
+		2AD23FF62C7BA6FB0055110A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD23FF52C7BA6FB0055110A /* Preview Assets.xcassets */; };
+		2AD240002C7BA6FB0055110A /* RTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD23FFF2C7BA6FB0055110A /* RTicketTests.swift */; };
+		2AD2400A2C7BA6FB0055110A /* RTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD240092C7BA6FB0055110A /* RTicketUITests.swift */; };
+		2AD2400C2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2400B2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD23FFC2C7BA6FB0055110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD23FE32C7BA6F90055110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD23FEA2C7BA6F90055110A;
+			remoteInfo = RTicket;
+		};
+		2AD240062C7BA6FB0055110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD23FE32C7BA6F90055110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD23FEA2C7BA6F90055110A;
+			remoteInfo = RTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AD23FEB2C7BA6F90055110A /* RTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD23FEE2C7BA6F90055110A /* RTicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketApp.swift; sourceTree = "<group>"; };
+		2AD23FF02C7BA6F90055110A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AD23FF22C7BA6FB0055110A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD23FF52C7BA6FB0055110A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AD23FFB2C7BA6FB0055110A /* RTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD23FFF2C7BA6FB0055110A /* RTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketTests.swift; sourceTree = "<group>"; };
+		2AD240052C7BA6FB0055110A /* RTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD240092C7BA6FB0055110A /* RTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketUITests.swift; sourceTree = "<group>"; };
+		2AD2400B2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTicketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD23FE82C7BA6F90055110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD23FF82C7BA6FB0055110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD240022C7BA6FB0055110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD23FE22C7BA6F90055110A = {
+			isa = PBXGroup;
+			children = (
+				2AD23FED2C7BA6F90055110A /* RTicket */,
+				2AD23FFE2C7BA6FB0055110A /* RTicketTests */,
+				2AD240082C7BA6FB0055110A /* RTicketUITests */,
+				2AD23FEC2C7BA6F90055110A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD23FEC2C7BA6F90055110A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD23FEB2C7BA6F90055110A /* RTicket.app */,
+				2AD23FFB2C7BA6FB0055110A /* RTicketTests.xctest */,
+				2AD240052C7BA6FB0055110A /* RTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD23FED2C7BA6F90055110A /* RTicket */ = {
+			isa = PBXGroup;
+			children = (
+				2AD23FEE2C7BA6F90055110A /* RTicketApp.swift */,
+				2AD23FF02C7BA6F90055110A /* ContentView.swift */,
+				2AD23FF22C7BA6FB0055110A /* Assets.xcassets */,
+				2AD23FF42C7BA6FB0055110A /* Preview Content */,
+			);
+			path = RTicket;
+			sourceTree = "<group>";
+		};
+		2AD23FF42C7BA6FB0055110A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AD23FF52C7BA6FB0055110A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AD23FFE2C7BA6FB0055110A /* RTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD23FFF2C7BA6FB0055110A /* RTicketTests.swift */,
+			);
+			path = RTicketTests;
+			sourceTree = "<group>";
+		};
+		2AD240082C7BA6FB0055110A /* RTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD240092C7BA6FB0055110A /* RTicketUITests.swift */,
+				2AD2400B2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift */,
+			);
+			path = RTicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD23FEA2C7BA6F90055110A /* RTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD2400F2C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicket" */;
+			buildPhases = (
+				2AD23FE72C7BA6F90055110A /* Sources */,
+				2AD23FE82C7BA6F90055110A /* Frameworks */,
+				2AD23FE92C7BA6F90055110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTicket;
+			productName = RTicket;
+			productReference = 2AD23FEB2C7BA6F90055110A /* RTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD23FFA2C7BA6FB0055110A /* RTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD240122C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicketTests" */;
+			buildPhases = (
+				2AD23FF72C7BA6FB0055110A /* Sources */,
+				2AD23FF82C7BA6FB0055110A /* Frameworks */,
+				2AD23FF92C7BA6FB0055110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD23FFD2C7BA6FB0055110A /* PBXTargetDependency */,
+			);
+			name = RTicketTests;
+			productName = RTicketTests;
+			productReference = 2AD23FFB2C7BA6FB0055110A /* RTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AD240042C7BA6FB0055110A /* RTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD240152C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicketUITests" */;
+			buildPhases = (
+				2AD240012C7BA6FB0055110A /* Sources */,
+				2AD240022C7BA6FB0055110A /* Frameworks */,
+				2AD240032C7BA6FB0055110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD240072C7BA6FB0055110A /* PBXTargetDependency */,
+			);
+			name = RTicketUITests;
+			productName = RTicketUITests;
+			productReference = 2AD240052C7BA6FB0055110A /* RTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD23FE32C7BA6F90055110A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2AD23FEA2C7BA6F90055110A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2AD23FFA2C7BA6FB0055110A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2AD23FEA2C7BA6F90055110A;
+					};
+					2AD240042C7BA6FB0055110A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2AD23FEA2C7BA6F90055110A;
+					};
+				};
+			};
+			buildConfigurationList = 2AD23FE62C7BA6F90055110A /* Build configuration list for PBXProject "RTicket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD23FE22C7BA6F90055110A;
+			productRefGroup = 2AD23FEC2C7BA6F90055110A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD23FEA2C7BA6F90055110A /* RTicket */,
+				2AD23FFA2C7BA6FB0055110A /* RTicketTests */,
+				2AD240042C7BA6FB0055110A /* RTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD23FE92C7BA6F90055110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD23FF62C7BA6FB0055110A /* Preview Assets.xcassets in Resources */,
+				2AD23FF32C7BA6FB0055110A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD23FF92C7BA6FB0055110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD240032C7BA6FB0055110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD23FE72C7BA6F90055110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD23FF12C7BA6F90055110A /* ContentView.swift in Sources */,
+				2AD23FEF2C7BA6F90055110A /* RTicketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD23FF72C7BA6FB0055110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD240002C7BA6FB0055110A /* RTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD240012C7BA6FB0055110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2400A2C7BA6FB0055110A /* RTicketUITests.swift in Sources */,
+				2AD2400C2C7BA6FB0055110A /* RTicketUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD23FFD2C7BA6FB0055110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD23FEA2C7BA6F90055110A /* RTicket */;
+			targetProxy = 2AD23FFC2C7BA6FB0055110A /* PBXContainerItemProxy */;
+		};
+		2AD240072C7BA6FB0055110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD23FEA2C7BA6F90055110A /* RTicket */;
+			targetProxy = 2AD240062C7BA6FB0055110A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AD2400D2C7BA6FB0055110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AD2400E2C7BA6FB0055110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD240102C7BA6FB0055110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTicket/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD240112C7BA6FB0055110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RTicket/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AD240132C7BA6FB0055110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTicket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RTicket";
+			};
+			name = Debug;
+		};
+		2AD240142C7BA6FB0055110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTicket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RTicket";
+			};
+			name = Release;
+		};
+		2AD240162C7BA6FB0055110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTicket;
+			};
+			name = Debug;
+		};
+		2AD240172C7BA6FB0055110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WAY7UQZ7F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deVel.RTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD23FE62C7BA6F90055110A /* Build configuration list for PBXProject "RTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD2400D2C7BA6FB0055110A /* Debug */,
+				2AD2400E2C7BA6FB0055110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD2400F2C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD240102C7BA6FB0055110A /* Debug */,
+				2AD240112C7BA6FB0055110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD240122C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD240132C7BA6FB0055110A /* Debug */,
+				2AD240142C7BA6FB0055110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD240152C7BA6FB0055110A /* Build configuration list for PBXNativeTarget "RTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD240162C7BA6FB0055110A /* Debug */,
+				2AD240172C7BA6FB0055110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AD23FE32C7BA6F90055110A /* Project object */;
+}
