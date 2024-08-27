@@ -27,6 +27,7 @@
 //}
 
 import SwiftUI
+import RealmSwift
 
 struct ContentView: View {
     @State private var username: String = realmApp.currentUser?.profile.email ?? ""

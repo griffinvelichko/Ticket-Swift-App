@@ -76,11 +76,10 @@ struct TicketsView: View {
                         ticket.status != .complete || ticket.created > lastYear
                     )
                 })
-            } onComplete: { error in
-                if let error = error {
-                    print("Failed to subscribe for \(product): \(error.localizedDescription)")
+            } onComplete: { _ in
+                Task { @MainActor in
+                    busy = false
                 }
-                busy = false
             }
         }
     }
