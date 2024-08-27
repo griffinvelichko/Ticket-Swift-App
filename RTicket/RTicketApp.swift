@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-let realmApp = RealmSwift.App(id: "application-0-ttsawut")
+let realmApp = RealmSwift.App(id: "application-0-ttsawut") // Please don't use this id outside of this app
 let useEmailPasswordAuth = true
 
 @main
